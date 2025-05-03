@@ -1,5 +1,7 @@
+import { MD3DarkTheme, MD3LightTheme } from "react-native-paper";
+
 export const lightTheme = {
-  ...MD3LightTheme, // Extiende el tema predeterminado de Paper
+  ...MD3LightTheme, // ✅ Ahora está correctamente importado
   colors: {
     ...MD3LightTheme.colors,
     background: "#fafafa",
@@ -26,7 +28,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  ...MD3DarkTheme,
+  ...MD3DarkTheme, // ✅ También correctamente importado
   colors: {
     ...MD3DarkTheme.colors,
     background: "#0c0918",
