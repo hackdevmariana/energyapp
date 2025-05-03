@@ -1,11 +1,10 @@
-// app/index.tsx
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function HomePage() {
+export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>¡Hola Mundo con expo-router! 🚀</Text>
+      <Text style={styles.text}>¡Hola Mundo! 🌍</Text>
     </View>
   );
 }
@@ -17,9 +16,5 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#eda71a",
   },
-  text: {
-    fontSize: 24,
-    fontWeight: "bold",
-    color: "#0c0918",
-  },
+  text: { fontSize: 24, fontWeight: "bold", color: "#0c0918" },
 });
